@@ -1,0 +1,1209 @@
+[2026-04-21T16:49:00.415] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-21T16:49:04.855] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-21T16:49:39.837] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-04-21T16:49:39.840] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T16:49:40.077] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-04-21T16:49:40.074] [DEBUG] debug-file - App plugin register hook start...
+[2026-04-21T16:49:40.082] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-04-21T16:49:40.169] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\ky\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-04-21T16:49:40.159] [DEBUG] debug-file - Project task initialization takes 8 ms 
+[2026-04-21T16:49:40.104] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-04-21T16:49:40.189] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-04-21T16:49:40.198] [DEBUG] debug-file - project has submodules:entry
+[2026-04-21T16:49:00.417] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-04-21T16:49:40.201] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-04-21T16:49:40.213] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T16:49:40.316] [DEBUG] debug-file - entry : clean cost memory 0.10939788818359375
+[2026-04-21T16:49:40.375] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-21T16:49:04.856] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-21T16:49:39.837] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-04-21T16:49:39.840] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-21T16:49:40.077] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-04-21T16:49:40.075] [DEBUG] debug-file - App plugin register hook end...
+[2026-04-21T16:49:40.083] [DEBUG] debug-file - not found resModel json file in : D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\ohosTest\module.json5
+[2026-04-21T16:49:40.159] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T16:49:40.149] [DEBUG] debug-file - Sdk init in 59 ms 
+[2026-04-21T16:49:40.189] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:49:00.420] [DEBUG] debug-file - env: daemon=false
+[2026-04-21T16:49:40.205] [DEBUG] debug-file - load to the disk finished
+[2026-04-21T16:49:40.217] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-04-21T16:49:40.317] [DEBUG] debug-file - runTaskFromQueue task cost before running: 35 s 483 ms 
+[2026-04-21T16:49:40.384] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-21T16:49:04.856] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-21T16:49:39.840] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-21T16:49:40.077] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-04-21T16:49:40.075] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T16:49:40.159] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\ky\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-21T16:49:40.090] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-04-21T16:49:40.190] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T16:49:00.421] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2026-04-21T16:49:40.208] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T16:49:40.217] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-04-21T16:49:40.318] [INFO] debug-file - Finished :entry:clean... after 5 ms 
+[2026-04-21T16:49:40.386] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-04-21T16:49:04.862] [DEBUG] debug-file - hvigorfile, resolving D:\ky\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-21T16:49:39.840] [DEBUG] debug-file - App plugin creating...
+[2026-04-21T16:49:40.077] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-04-21T16:49:40.159] [DEBUG] debug-file - hvigorfile, resolve finished D:\ky\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-21T16:49:40.092] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-04-21T16:49:40.190] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T16:49:40.230] [DEBUG] debug-file - Configuration phase cost:35 s 374 ms 
+[2026-04-21T16:49:40.210] [DEBUG] debug-file - Module PlayShortVideosBasedOnVideoComponent-master Collected Dependency: 
+[2026-04-21T16:49:40.318] [DEBUG] debug-file - Executing task ::clean
+[2026-04-21T16:49:40.387] [DEBUG] debug-file - Clear worker 0.
+[2026-04-21T16:49:40.160] [DEBUG] debug-file - hvigorfile, resolving D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-21T16:49:40.098] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-04-21T16:49:40.190] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T16:49:40.312] [DEBUG] debug-file - Configuration task cost before running: 35 s 477 ms 
+[2026-04-21T16:49:40.210] [DEBUG] debug-file - Module PlayShortVideosBasedOnVideoComponent-master's total dependency: 0
+[2026-04-21T16:49:40.318] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-04-21T16:49:40.387] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-04-21T16:49:40.167] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2026-04-21T16:49:40.190] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T16:49:40.313] [DEBUG] debug-file - Executing task :entry:clean
+[2026-04-21T16:49:40.319] [DEBUG] debug-file - PlayShortVideosBasedOnVideoComponent-master : clean cost memory 0.019866943359375
+[2026-04-21T16:49:40.387] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-21T16:49:40.167] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2026-04-21T16:49:40.190] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-04-21T16:49:40.313] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-04-21T16:49:40.387] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-21T16:49:40.190] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:49:40.319] [DEBUG] debug-file - runTaskFromQueue task cost before running: 35 s 485 ms 
+[2026-04-21T16:49:40.167] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T16:49:40.387] [DEBUG] debug-file - Clear worker 1.
+[2026-04-21T16:49:40.191] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T16:49:40.319] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2026-04-21T16:49:40.167] [DEBUG] debug-file - Hap plugin creating...
+[2026-04-21T16:49:40.387] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-04-21T16:49:40.191] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T16:49:40.319] [DEBUG] debug-file - Executing task :entry:init
+[2026-04-21T16:49:40.191] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T16:49:40.387] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-21T16:49:40.319] [DEBUG] debug-file - entry : init cost memory 0.25832366943359375
+[2026-04-21T16:49:40.191] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T16:49:40.387] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-21T16:49:40.319] [DEBUG] debug-file - runTaskFromQueue task cost before running: 35 s 485 ms 
+[2026-04-21T16:49:40.191] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-04-21T16:49:40.388] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-21T16:49:40.191] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:49:40.320] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-04-21T16:49:40.393] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-04-21T16:49:40.191] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T16:49:40.320] [DEBUG] debug-file - Executing task ::init
+[2026-04-21T16:49:40.393] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-04-21T16:49:40.191] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T16:49:40.320] [DEBUG] debug-file - PlayShortVideosBasedOnVideoComponent-master : init cost memory 0.01141357421875
+[2026-04-21T16:49:40.394] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-04-21T16:49:40.191] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T16:49:40.320] [DEBUG] debug-file - runTaskFromQueue task cost before running: 35 s 486 ms 
+[2026-04-21T16:49:40.191] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T16:49:40.320] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-04-21T16:49:40.192] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-04-21T16:49:40.335] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-04-21T16:49:40.196] [DEBUG] debug-file - Module entry task initialization takes 5 ms 
+[2026-04-21T16:49:40.336] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-04-21T16:49:40.196] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-04-21T16:49:40.358] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-21T16:49:40.196] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-04-21T16:49:40.358] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-21T16:49:40.196] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T16:49:40.197] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T16:49:40.197] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-21T16:49:40.197] [DEBUG] debug-file - hvigorfile, resolve finished D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-21T16:51:00.013] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-21T16:51:00.281] [DEBUG] debug-file - env: daemon=true
+[2026-04-21T16:51:00.015] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-04-21T16:51:03.497] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-04-21T16:51:03.588] [DEBUG] debug-file - java daemon started at port 45050 pid 23080
+[2026-04-21T16:51:03.627] [DEBUG] debug-file - session manager: set active socket. socketId=dGDr0MdcUDGlXcxqAAAB
+[2026-04-21T16:51:04.285] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-21T16:51:04.291] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-21T16:51:04.292] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-21T16:51:04.293] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-21T16:51:04.296] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-21T16:51:04.298] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-21T16:51:04.307] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-21T16:51:04.308] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-21T16:51:04.310] [DEBUG] debug-file - hvigorfile, resolving D:\ky\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-21T16:51:07.773] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-21T16:51:07.774] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-21T16:51:07.775] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T16:51:07.775] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-21T16:51:07.776] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-21T16:51:07.776] [DEBUG] debug-file - App plugin creating...
+[2026-04-21T16:51:08.134] [DEBUG] debug-file - App plugin register hook start...
+[2026-04-21T16:51:08.135] [DEBUG] debug-file - App plugin register hook end...
+[2026-04-21T16:51:08.135] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T16:51:08.137] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-04-21T16:51:08.137] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-04-21T16:51:08.138] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-04-21T16:51:08.138] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-04-21T16:51:08.141] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-04-21T16:51:08.143] [DEBUG] debug-file - not found resModel json file in : D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\ohosTest\module.json5
+[2026-04-21T16:51:08.157] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-04-21T16:51:08.161] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-04-21T16:51:08.167] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-04-21T16:51:08.172] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-04-21T16:51:08.243] [DEBUG] debug-file - Sdk init in 84 ms 
+[2026-04-21T16:51:08.255] [DEBUG] debug-file - Project task initialization takes 11 ms 
+[2026-04-21T16:51:08.256] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T16:51:08.256] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\ky\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-21T16:51:08.256] [DEBUG] debug-file - hvigorfile, resolve finished D:\ky\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-21T16:51:08.257] [DEBUG] debug-file - hvigorfile, resolving D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-21T16:51:08.270] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-21T16:51:08.270] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-21T16:51:08.270] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T16:51:08.271] [DEBUG] debug-file - Hap plugin creating...
+[2026-04-21T16:51:08.274] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\ky\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-04-21T16:51:08.304] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-04-21T16:51:08.304] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:51:08.306] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T16:51:08.307] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T16:51:08.307] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T16:51:08.307] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T16:51:08.307] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-04-21T16:51:08.307] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:51:08.308] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T16:51:08.309] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T16:51:08.309] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T16:51:08.309] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T16:51:08.310] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-04-21T16:51:08.310] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:51:08.310] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T16:51:08.311] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T16:51:08.311] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T16:51:08.311] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T16:51:08.312] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-04-21T16:51:08.322] [DEBUG] debug-file - Module entry task initialization takes 9 ms 
+[2026-04-21T16:51:08.322] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-04-21T16:51:08.323] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-04-21T16:51:08.323] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T16:51:08.323] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T16:51:08.323] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-21T16:51:08.323] [DEBUG] debug-file - hvigorfile, resolve finished D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-21T16:51:08.366] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 42 ms 
+[2026-04-21T16:51:08.366] [DEBUG] debug-file - project has submodules:entry
+[2026-04-21T16:51:08.370] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-04-21T16:51:08.408] [DEBUG] debug-file - load to the disk finished
+[2026-04-21T16:51:08.410] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T16:51:08.413] [DEBUG] debug-file - Module PlayShortVideosBasedOnVideoComponent-master Collected Dependency: 
+[2026-04-21T16:51:08.413] [DEBUG] debug-file - Module PlayShortVideosBasedOnVideoComponent-master's total dependency: 0
+[2026-04-21T16:51:08.415] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T16:51:08.420] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-04-21T16:51:08.420] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-04-21T16:51:08.426] [DEBUG] debug-file - Configuration phase cost:4 s 118 ms 
+[2026-04-21T16:51:08.431] [DEBUG] debug-file - Configuration task cost before running: 4 s 132 ms 
+[2026-04-21T16:51:08.443] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2026-04-21T16:51:08.446] [DEBUG] debug-file - Task 'entry:default@PreBuild' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:08.775] [DEBUG] debug-file - current product is not Atomic service.
+[2026-04-21T16:51:08.776] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'D:\\software\\DevEco Studio\\jbr' },
+  { CLASSPATH: undefined }
+]
+[2026-04-21T16:51:08.776] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [ { NODE_HOME: 'D:\\software\\DevEco Studio\\tools\\node' } ]
+[2026-04-21T16:51:08.777] [DEBUG] debug-file - entry : default@PreBuild cost memory 17.144805908203125
+[2026-04-21T16:51:08.777] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 479 ms 
+[2026-04-21T16:51:08.780] [INFO] debug-file - Finished :entry:default@PreBuild... after 335 ms 
+[2026-04-21T16:51:08.782] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2026-04-21T16:51:08.783] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:08.784] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.0093231201171875
+[2026-04-21T16:51:08.784] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 485 ms 
+[2026-04-21T16:51:08.784] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 2 ms 
+[2026-04-21T16:51:08.790] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2026-04-21T16:51:08.791] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:08.795] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.08634185791015625
+[2026-04-21T16:51:08.795] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 496 ms 
+[2026-04-21T16:51:08.795] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 6 ms 
+[2026-04-21T16:51:08.798] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2026-04-21T16:51:08.798] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.0144805908203125
+[2026-04-21T16:51:08.798] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 500 ms 
+[2026-04-21T16:51:08.798] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2026-04-21T16:51:08.801] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2026-04-21T16:51:08.802] [DEBUG] debug-file - Task 'entry:default@MergeProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:08.803] [DEBUG] debug-file - Change app api release type with 'Release'
+[2026-04-21T16:51:08.803] [DEBUG] debug-file - Change app compile API version with '6.0.2.130'
+[2026-04-21T16:51:08.804] [DEBUG] debug-file - Change app target API version with '60002022'
+[2026-04-21T16:51:08.804] [DEBUG] debug-file - Change app minimum API version with '60002022'
+[2026-04-21T16:51:08.804] [DEBUG] debug-file - Use cli appEnvironment
+[2026-04-21T16:51:08.807] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.30933380126953125
+[2026-04-21T16:51:08.807] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 509 ms 
+[2026-04-21T16:51:08.808] [INFO] debug-file - Finished :entry:default@MergeProfile... after 7 ms 
+[2026-04-21T16:51:08.810] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2026-04-21T16:51:08.811] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:08.814] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.06586456298828125
+[2026-04-21T16:51:08.814] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 515 ms 
+[2026-04-21T16:51:08.814] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 4 ms 
+[2026-04-21T16:51:08.816] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2026-04-21T16:51:08.817] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01471710205078125
+[2026-04-21T16:51:08.817] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 518 ms 
+[2026-04-21T16:51:08.817] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2026-04-21T16:51:08.822] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2026-04-21T16:51:08.830] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:08.832] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.1731414794921875
+[2026-04-21T16:51:08.832] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 533 ms 
+[2026-04-21T16:51:08.832] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 11 ms 
+[2026-04-21T16:51:08.840] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2026-04-21T16:51:08.841] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.0293121337890625
+[2026-04-21T16:51:08.844] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 545 ms 
+[2026-04-21T16:51:08.845] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 4 ms 
+[2026-04-21T16:51:08.848] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2026-04-21T16:51:08.849] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.014862060546875
+[2026-04-21T16:51:08.849] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 550 ms 
+[2026-04-21T16:51:08.849] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2026-04-21T16:51:08.851] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2026-04-21T16:51:08.854] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'c***o', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2026-04-21T16:51:08.856] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.2641143798828125
+[2026-04-21T16:51:08.856] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 557 ms 
+[2026-04-21T16:51:08.857] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 6 ms 
+[2026-04-21T16:51:08.859] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2026-04-21T16:51:08.859] [DEBUG] debug-file - File: 'D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2026-04-21T16:51:08.888] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 29 ms 
+[2026-04-21T16:51:08.889] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.05764007568359375
+[2026-04-21T16:51:08.890] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 591 ms 
+[2026-04-21T16:51:08.890] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 31 ms 
+[2026-04-21T16:51:08.893] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2026-04-21T16:51:08.895] [DEBUG] debug-file - Task 'entry:default@ProcessProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:08.898] [DEBUG] debug-file - [
+  'D:\\software\\DevEco Studio\\tools\\node\\node.exe',
+  'D:\\software\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '22'
+]
+[2026-04-21T16:51:09.760] [DEBUG] debug-file - 13.0.1.0
+[2026-04-21T16:51:09.764] [DEBUG] debug-file - No need to add fake ui ability because of not in preview process.
+[2026-04-21T16:51:09.765] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 2.070037841796875
+[2026-04-21T16:51:09.766] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 467 ms 
+[2026-04-21T16:51:09.766] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 873 ms 
+[2026-04-21T16:51:09.769] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2026-04-21T16:51:09.775] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.0946197509765625
+[2026-04-21T16:51:09.776] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 477 ms 
+[2026-04-21T16:51:09.777] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 7 ms 
+[2026-04-21T16:51:09.778] [DEBUG] debug-file - Executing task :entry:default@ProcessShareConfig
+[2026-04-21T16:51:09.783] [DEBUG] debug-file - entry : default@ProcessShareConfig cost memory 0.0760650634765625
+[2026-04-21T16:51:09.783] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 485 ms 
+[2026-04-21T16:51:09.784] [INFO] debug-file - Finished :entry:default@ProcessShareConfig... after 5 ms 
+[2026-04-21T16:51:09.786] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2026-04-21T16:51:09.786] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:09.788] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.0810089111328125
+[2026-04-21T16:51:09.789] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 490 ms 
+[2026-04-21T16:51:09.789] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 3 ms 
+[2026-04-21T16:51:09.791] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2026-04-21T16:51:09.792] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.02713775634765625
+[2026-04-21T16:51:09.792] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 494 ms 
+[2026-04-21T16:51:09.793] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2026-04-21T16:51:09.795] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2026-04-21T16:51:09.813] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2026-04-21T16:51:09.814] [DEBUG] debug-file - Task 'entry:default@ProcessResource' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:09.817] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.11717987060546875
+[2026-04-21T16:51:09.818] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 520 ms 
+[2026-04-21T16:51:09.820] [INFO] debug-file - Finished :entry:default@ProcessResource... after 20 ms 
+[2026-04-21T16:51:09.824] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2026-04-21T16:51:09.826] [DEBUG] debug-file - Task 'entry:default@GenerateLoaderJson' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:09.846] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.524566650390625
+[2026-04-21T16:51:09.847] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 548 ms 
+[2026-04-21T16:51:09.853] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 24 ms 
+[2026-04-21T16:51:09.854] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2026-04-21T16:51:09.863] [DEBUG] debug-file - Worker dispatch failed, running processLibs on main thread.
+[2026-04-21T16:51:09.865] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.46855926513671875
+[2026-04-21T16:51:09.865] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 566 ms 
+[2026-04-21T16:51:09.866] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 11 ms 
+[2026-04-21T16:51:09.868] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2026-04-21T16:51:09.869] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2026-04-21T16:51:09.881] [DEBUG] debug-file - Use tool [D:\software\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'D:\\software\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2026-04-21T16:51:09.883] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 269279232,
+  heapTotal: 167424000,
+  heapUsed: 141284640,
+  external: 3086524,
+  arrayBuffers: 185294
+} os memoryUsage :17.547828674316406
+[2026-04-21T16:51:10.419] [DEBUG] debug-file - Info: Pack: normal pack mode
+
+[2026-04-21T16:51:11.287] [DEBUG] debug-file - Info: hardware concurrency count is : 20
+Info: thread count is : 20
+
+[2026-04-21T16:51:11.288] [DEBUG] debug-file - Info: thread pool is started
+
+[2026-04-21T16:51:11.289] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-04-21T16:51:11.297] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+Warning: 'D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\resources\base\media\background.png' is defined repeatedly.
+
+[2026-04-21T16:51:11.297] [DEBUG] debug-file - Warning: 'D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\resources\base\media\foreground.png' is defined repeatedly.
+Warning: 'D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\resources\base\media\layered_image.json' is defined repeatedly.
+
+[2026-04-21T16:51:11.302] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-04-21T16:51:11.310] [DEBUG] debug-file - 04-21 16:51:11.311 20468   364 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2026-04-21T16:51:11.311] [DEBUG] debug-file - 04-21 16:51:11.311 20468   364 E C01400/ImageTranscoderUtils: ImageFilter IN D:\ky\PlayShortVideosBasedOnVideoComponent-master\AppScope\resources\base\media\background.png
+
+[2026-04-21T16:51:11.379] [DEBUG] debug-file - 04-21 16:51:11.379 20468   364 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+04-21 16:51:11.379 20468   364 E C01400/ImageTranscoderUtils: ImageFilter IN D:\ky\PlayShortVideosBasedOnVideoComponent-master\AppScope\resources\base\media\foreground.png
+
+[2026-04-21T16:51:11.436] [DEBUG] debug-file - Info: can't scale media json file.
+
+[2026-04-21T16:51:11.437] [DEBUG] debug-file - Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at D:\ky\PlayShortVideosBasedOnVideoComponent-master\AppScope\resources\base\media\background.png
+Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at D:\ky\PlayShortVideosBasedOnVideoComponent-master\AppScope\resources\base\media\foreground.png
+Warning: D:\ky\PlayShortVideosBasedOnVideoComponent-master\AppScope\resources\base\media\layered_image.json is not png format
+
+[2026-04-21T16:51:11.448] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2026-04-21T16:51:11.450] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2026-04-21T16:51:11.515] [DEBUG] debug-file - entry : default@CompileResource cost memory 0.829437255859375
+[2026-04-21T16:51:11.515] [DEBUG] debug-file - runTaskFromQueue task cost before running: 7 s 217 ms 
+[2026-04-21T16:51:11.517] [INFO] debug-file - Finished :entry:default@CompileResource... after 1 s 647 ms 
+[2026-04-21T16:51:11.519] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2026-04-21T16:51:11.519] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:11.523] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.0583953857421875
+[2026-04-21T16:51:11.523] [DEBUG] debug-file - runTaskFromQueue task cost before running: 7 s 224 ms 
+[2026-04-21T16:51:11.523] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 5 ms 
+[2026-04-21T16:51:11.526] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2026-04-21T16:51:11.527] [DEBUG] debug-file - obfuscationOptions: undefined
+[2026-04-21T16:51:11.529] [DEBUG] debug-file - Task 'entry:default@CompileArkTS' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:11.555] [DEBUG] debug-file - build config:
+[2026-04-21T16:51:11.555] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  hotReloadBuild: undefined,
+  watchMode: 'false',
+  aceProfilePath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'D:\\software\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master',
+  compileSdkVersion: 22,
+  compatibleSdkVersion: 22,
+  originCompatibleSdkVersion: '6.0.2(22)',
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***o',
+  etsLoaderVersion: '6.0.2.130',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: '4293181441ae3e10b56a0b7bcafb85c22f55b1d80554fb6816c204e05c2e75ab',
+  externalApiPaths: [ 'D:\\software\\DevEco Studio\\sdk\\default\\hms\\ets' ],
+  compilerTypes: [],
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 22,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  buildDir: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  pkgContextInfo: {
+    entry: {
+      packageName: 'entry',
+      bundleName: '*****',
+      moduleName: '',
+      version: '',
+      entryPath: 'src/main/',
+      isSO: false,
+      dependencyAlias: ''
+    }
+  },
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  useGetCurrentBundleName: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  useTscResolve: false,
+  singleFileEmit: false,
+  userProjectConfig: {
+    autoLazyImport: false,
+    allowEmptyBundleName: false,
+    reExportCheckMode: 'noCheck',
+    executionMode: 'memory',
+    usePathPlaceholder: false,
+    writeRollupCache: true,
+    isExpandImportEnabled: false,
+    expandImportExclude: '',
+    lazyImportExclude: '',
+    lazyImportInclude: '',
+    ignoreCrossplatformCheck: false,
+    isHarDeduplicateEnabled: false,
+    skipOhModulesLint: false,
+    enableStrictCheckOHModule: false,
+    disableSendableCheckRules: [],
+    useDeclarationFileSignature: false,
+    customizedOptions: undefined,
+    integratedHsp: false,
+    isPreloadSoEnabled: false
+  },
+  executionMode: 'memory',
+  arkCompileCachePath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule',
+  autoLazyFilter: undefined,
+  isHarDeduplicateEnabled: false,
+  intermediateHarDuplicateDirPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\har_duplicate\\default',
+  autoLazyImport: false,
+  allowEmptyBundleName: false,
+  reExportCheckMode: 'noCheck',
+  usePathPlaceholder: false,
+  writeRollupCache: true,
+  isExpandImportEnabled: false,
+  expandImportExclude: '',
+  lazyImportExclude: '',
+  lazyImportInclude: '',
+  ignoreCrossplatformCheck: false,
+  skipOhModulesLint: false,
+  enableStrictCheckOHModule: false,
+  disableSendableCheckRules: [],
+  useDeclarationFileSignature: false,
+  customizedOptions: undefined,
+  integratedHsp: false,
+  isPreloadSoEnabled: false,
+  strictMode: {
+    caseSensitiveCheck: true,
+    useNormalizedOHMUrl: true,
+    noExternalImportByPath: true
+  },
+  useNormalizedOHMUrl: true,
+  caseSensitiveCheck: true,
+  aceModuleJsonPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: 'b2ab5f6c43049a30f5528f65c0fb683b0371500ec32897cf7487a25b9373fab7',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:22:6.0.2.130:Release',
+  aceModuleRoot: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  shouldCollectDirectImportees: false,
+  isByteCodeHarOptimize: false,
+  expandImportPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry',
+      belongProjectPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master'
+    },
+    'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\.test\\default\\intermediates\\src\\ohosTest\\ets': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry',
+      belongProjectPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master'
+    },
+    'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\src\\ohosTest': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry',
+      belongProjectPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master'
+    },
+    'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry',
+      belongProjectPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master'
+    },
+    'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master': {
+      moduleName: 'PlayShortVideosBasedOnVideoComponent-master',
+      modulePkgPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master',
+      belongProjectPath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master'
+    }
+  },
+  pkgJsonFileHash: '33091e094eb299ab7e307c4afe0348ddbaa3b7f47828b8a8be9c1a88165787ba',
+  allModulePaths: [ 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  byteCodeHarToDependencyKeys: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {},
+    source2ModuleIdMap: {}
+  },
+  copyCodeResourceEnable: false,
+  copyCodeResourceExcludes: [],
+  copyCodeResourceIncludes: undefined,
+  uiTransformOptimization: false,
+  sdkPath: 'D:/software/DevEco Studio/sdk',
+  needPreloadSoFileSet: {},
+  preloadSoFilePath: 'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\preload\\default\\preload.json',
+  useSourceHash: false,
+  localModuleParamMap: {},
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2026-04-21T16:51:11.556] [DEBUG] debug-file - Compile arkts with external api path: D:\software\DevEco Studio\sdk\default\hms\ets
+[2026-04-21T16:51:11.559] [DEBUG] debug-file - default@CompileArkTS work[0] is submitted.
+[2026-04-21T16:51:11.560] [DEBUG] debug-file - default@CompileArkTS work[0] is pushed to ready queue.
+[2026-04-21T16:51:11.560] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.561] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.562] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2026-04-21T16:51:11.564] [DEBUG] debug-file - default@CompileArkTS work[0] has been dispatched to worker[4].
+[2026-04-21T16:51:11.564] [DEBUG] debug-file - default@CompileArkTS work[0] is dispatched.
+[2026-04-21T16:51:11.564] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.8071517944335938
+[2026-04-21T16:51:11.566] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2026-04-21T16:51:11.566] [DEBUG] debug-file - Task 'entry:default@BuildJS' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:11.570] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.157196044921875
+[2026-04-21T16:51:11.571] [DEBUG] debug-file - runTaskFromQueue task cost before running: 7 s 272 ms 
+[2026-04-21T16:51:11.571] [INFO] debug-file - Finished :entry:default@BuildJS... after 5 ms 
+[2026-04-21T16:51:11.573] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2026-04-21T16:51:11.574] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:11.574] [DEBUG] debug-file - default@CacheNativeLibs work[1] is submitted.
+[2026-04-21T16:51:11.575] [DEBUG] debug-file - default@CacheNativeLibs work[1] is pushed to ready queue.
+[2026-04-21T16:51:11.575] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2026-04-21T16:51:11.575] [DEBUG] debug-file - Create  resident worker with id: 18.
+[2026-04-21T16:51:11.576] [DEBUG] debug-file - default@CacheNativeLibs work[1] has been dispatched to worker[18].
+[2026-04-21T16:51:11.576] [DEBUG] debug-file - default@CacheNativeLibs work[1] is dispatched.
+[2026-04-21T16:51:11.577] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.14492034912109375
+[2026-04-21T16:51:13.085] [DEBUG] debug-file - worker[18] has one work done.
+[2026-04-21T16:51:13.086] [DEBUG] debug-file - default@CacheNativeLibs work[1] done.
+[2026-04-21T16:51:13.086] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2026-04-21T16:51:13.087] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 11 ms 
+[2026-04-21T16:51:48.549] [DEBUG] debug-file - worker[4] has one work done.
+[2026-04-21T16:51:48.550] [DEBUG] debug-file - Ark compile task finished.finished time is 217070481760300
+[2026-04-21T16:51:48.554] [DEBUG] debug-file - default@CompileArkTS work[0] done.
+[2026-04-21T16:51:48.554] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2026-04-21T16:51:48.558] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 33 s 271 ms 
+[2026-04-21T16:51:48.560] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2026-04-21T16:51:48.561] [DEBUG] debug-file - File: 'D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-04-21T16:51:48.562] [DEBUG] debug-file - Error occurs while handling @Input 'shouldDeduplicateHar': The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+[2026-04-21T16:51:48.563] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 3 ms 
+[2026-04-21T16:51:48.569] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.17252349853515625
+[2026-04-21T16:51:48.569] [DEBUG] debug-file - runTaskFromQueue task cost before running: 44 s 271 ms 
+[2026-04-21T16:51:48.570] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 10 ms 
+[2026-04-21T16:51:48.572] [DEBUG] debug-file - Executing task :entry:default@ProcessCompiledResources
+[2026-04-21T16:51:48.572] [DEBUG] debug-file - File: 'D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-04-21T16:51:48.573] [DEBUG] debug-file - Task 'entry:default@ProcessCompiledResources' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:51:48.574] [DEBUG] debug-file - entry : default@ProcessCompiledResources cost memory 0.05834197998046875
+[2026-04-21T16:51:48.574] [DEBUG] debug-file - runTaskFromQueue task cost before running: 44 s 275 ms 
+[2026-04-21T16:51:48.574] [INFO] debug-file - Finished :entry:default@ProcessCompiledResources... after 2 ms 
+[2026-04-21T16:51:48.579] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2026-04-21T16:51:48.588] [DEBUG] debug-file - Use tool [D:\software\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'D:\\software\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  '--pkg-context-path',
+  'D:\\ky\\PlayShortVideosBasedOnVideoComponent-master\\entry\\build\\default\\intermediates\\loader\\default\\pkgContextInfo.json'
+]
+[2026-04-21T16:51:49.521] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"pack success"}
+[2026-04-21T16:51:49.528] [DEBUG] debug-file - entry : default@PackageHap cost memory -0.08258819580078125
+[2026-04-21T16:51:49.529] [DEBUG] debug-file - runTaskFromQueue task cost before running: 45 s 230 ms 
+[2026-04-21T16:51:49.531] [INFO] debug-file - Finished :entry:default@PackageHap... after 950 ms 
+[2026-04-21T16:51:49.533] [DEBUG] debug-file - Executing task :entry:default@PackingCheck
+[2026-04-21T16:51:49.555] [DEBUG] debug-file - entry : default@PackingCheck cost memory -0.22725677490234375
+[2026-04-21T16:51:49.556] [DEBUG] debug-file - runTaskFromQueue task cost before running: 45 s 257 ms 
+[2026-04-21T16:51:49.556] [INFO] debug-file - Finished :entry:default@PackingCheck... after 23 ms 
+[2026-04-21T16:51:49.564] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2026-04-21T16:51:49.566] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in D:\ky\PlayShortVideosBasedOnVideoComponent-master\build-profile.json5.
+[2026-04-21T16:51:49.569] [DEBUG] debug-file - entry : default@SignHap cost memory 0.06478118896484375
+[2026-04-21T16:51:49.569] [DEBUG] debug-file - runTaskFromQueue task cost before running: 45 s 271 ms 
+[2026-04-21T16:51:49.570] [INFO] debug-file - Finished :entry:default@SignHap... after 6 ms 
+[2026-04-21T16:51:49.574] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2026-04-21T16:51:49.577] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.09362030029296875
+[2026-04-21T16:51:49.577] [DEBUG] debug-file - runTaskFromQueue task cost before running: 45 s 278 ms 
+[2026-04-21T16:51:49.577] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 4 ms 
+[2026-04-21T16:51:49.578] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2026-04-21T16:51:49.578] [DEBUG] debug-file - entry : assembleHap cost memory 0.01367950439453125
+[2026-04-21T16:51:49.578] [DEBUG] debug-file - runTaskFromQueue task cost before running: 45 s 280 ms 
+[2026-04-21T16:51:49.579] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2026-04-21T16:51:49.592] [INFO] debug-file - BUILD SUCCESSFUL in 45 s 293 ms 
+[2026-04-21T16:51:49.595] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\AppScope\app.json5 cache by regenerate.
+[2026-04-21T16:51:49.597] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:51:49.598] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\build-profile.json5 cache by regenerate.
+[2026-04-21T16:51:49.599] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build-profile.json5 cache by regenerate.
+[2026-04-21T16:51:49.600] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2026-04-21T16:51:49.601] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\hvigor\hvigor-config.json5 cache by regenerate.
+[2026-04-21T16:51:49.601] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\oh-package.json5 cache by regenerate.
+[2026-04-21T16:51:49.602] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\oh-package.json5 cache by regenerate.
+[2026-04-21T16:51:49.603] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:10 ms .
+[2026-04-21T16:51:49.605] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2026-04-21T16:51:49.606] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:3 ms .
+[2026-04-21T16:51:49.606] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:51:49.608] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2026-04-21T16:51:49.609] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:3 ms .
+[2026-04-21T16:51:49.609] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\AppScope\app.json5 cache by regenerate.
+[2026-04-21T16:51:49.610] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\build-profile.json5 cache by regenerate.
+[2026-04-21T16:51:49.611] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:51:49.611] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2026-04-21T16:51:49.612] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:3 ms .
+[2026-04-21T16:51:49.612] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\AppScope\app.json5 cache by regenerate.
+[2026-04-21T16:51:49.612] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\build-profile.json5 cache by regenerate.
+[2026-04-21T16:51:49.614] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2026-04-21T16:51:49.614] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:3 ms .
+[2026-04-21T16:51:49.614] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2026-04-21T16:51:49.617] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:3 ms .
+[2026-04-21T16:51:49.618] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2026-04-21T16:51:49.619] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2026-04-21T16:51:49.620] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\AppScope\app.json5 cache by regenerate.
+[2026-04-21T16:51:49.620] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:51:49.621] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\build-profile.json5 cache by regenerate.
+[2026-04-21T16:51:49.622] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\resources\base\profile\backup_config.json cache by regenerate.
+[2026-04-21T16:51:49.623] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\outputs\default\pack.info cache.
+[2026-04-21T16:51:49.624] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:5 ms .
+[2026-04-21T16:51:49.624] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\software\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2026-04-21T16:51:49.624] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\software\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2026-04-21T16:51:49.628] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2026-04-21T16:51:49.629] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:6 ms .
+[2026-04-21T16:51:49.629] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2026-04-21T16:51:49.630] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2026-04-21T16:51:49.631] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:2 ms .
+[2026-04-21T16:51:49.632] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\oh-package.json5 cache by regenerate.
+[2026-04-21T16:51:49.634] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\oh-package.json5 cache by regenerate.
+[2026-04-21T16:51:49.634] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:51:49.636] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:51:49.636] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\router_map\default\temp-router-map.json cache.
+[2026-04-21T16:51:49.637] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2026-04-21T16:51:49.639] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:8 ms .
+[2026-04-21T16:51:49.639] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\oh-package.json5 cache by regenerate.
+[2026-04-21T16:51:49.641] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\oh-package.json5 cache by regenerate.
+[2026-04-21T16:51:49.641] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:51:49.642] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:51:49.643] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\share_config\default\temp-share-config.json cache.
+[2026-04-21T16:51:49.644] [DEBUG] debug-file - Incremental task entry:default@ProcessShareConfig post-execution cost:5 ms .
+[2026-04-21T16:51:49.644] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:51:49.645] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\startup\default\startup_config.json cache.
+[2026-04-21T16:51:49.646] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:2 ms .
+[2026-04-21T16:51:49.646] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\resConfig.json cache.
+[2026-04-21T16:51:49.647] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\opt-compression.json cache.
+[2026-04-21T16:51:49.649] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:3 ms .
+[2026-04-21T16:51:49.651] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:51:49.651] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\router_map\default\temp-router-map.json cache by regenerate.
+[2026-04-21T16:51:49.652] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default\loader.json cache.
+[2026-04-21T16:51:49.653] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:4 ms .
+[2026-04-21T16:51:49.654] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\build-profile.json5 cache by regenerate.
+[2026-04-21T16:51:49.654] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build-profile.json5 cache by regenerate.
+[2026-04-21T16:51:49.655] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\libs\default cache.
+[2026-04-21T16:51:49.656] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:3 ms .
+[2026-04-21T16:51:49.657] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\resources cache by regenerate.
+[2026-04-21T16:51:49.673] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\AppScope\resources cache by regenerate.
+[2026-04-21T16:51:49.676] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2026-04-21T16:51:49.676] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2026-04-21T16:51:49.677] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default cache.
+[2026-04-21T16:51:49.692] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2026-04-21T16:51:49.692] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\generated\r\default cache.
+[2026-04-21T16:51:49.694] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:38 ms .
+[2026-04-21T16:51:49.694] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-04-21T16:51:49.695] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\stripped_native_libs\default cache.
+[2026-04-21T16:51:49.695] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:2 ms .
+[2026-04-21T16:51:49.698] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-04-21T16:51:49.699] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2026-04-21T16:51:49.701] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-04-21T16:51:49.701] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-04-21T16:51:49.702] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-04-21T16:51:49.703] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\src\main\ets cache by regenerate.
+[2026-04-21T16:51:49.710] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:51:49.710] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-04-21T16:51:49.711] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader_out\default\ets cache.
+[2026-04-21T16:51:49.712] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:17 ms .
+[2026-04-21T16:51:49.714] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-04-21T16:51:49.716] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2026-04-21T16:51:49.717] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-04-21T16:51:49.718] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-04-21T16:51:49.718] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-04-21T16:51:49.721] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:51:49.721] [DEBUG] debug-file - Update task entry:default@BuildJS output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader_out\default\js cache.
+[2026-04-21T16:51:49.722] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:10 ms .
+[2026-04-21T16:51:49.722] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-04-21T16:51:49.723] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-04-21T16:51:49.723] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\patch\default\base_native_libs.json cache.
+[2026-04-21T16:51:49.724] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:2 ms .
+[2026-04-21T16:51:49.724] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-04-21T16:51:49.724] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\package\default\module.json cache.
+[2026-04-21T16:51:49.725] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:2 ms .
+[2026-04-21T16:51:49.725] [DEBUG] debug-file - Incremental task entry:default@ProcessCompiledResources post-execution cost:1 ms .
+[2026-04-21T16:51:49.726] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-04-21T16:51:49.727] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-04-21T16:51:49.728] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2026-04-21T16:51:49.737] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2026-04-21T16:51:49.737] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2026-04-21T16:51:49.738] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2026-04-21T16:51:49.739] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-04-21T16:51:49.740] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-04-21T16:51:49.740] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-04-21T16:51:49.741] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2026-04-21T16:51:49.742] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2026-04-21T16:51:49.742] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2026-04-21T16:51:49.743] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:18 ms .
+[2026-04-21T16:51:49.743] [DEBUG] debug-file - Update task entry:default@SignHap input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2026-04-21T16:51:49.744] [DEBUG] debug-file - Update task entry:default@SignHap output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2026-04-21T16:51:49.745] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:2 ms .
+[2026-04-21T16:51:49.746] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-04-21T16:51:49.746] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-04-21T16:51:49.747] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:D:\ky\PlayShortVideosBasedOnVideoComponent-master\entry\build\default\outputs\default\symbol cache.
+[2026-04-21T16:51:49.748] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:4 ms .
+[2026-04-21T16:51:49.793] [DEBUG] debug-file - Cleanup worker 0.
+[2026-04-21T16:51:49.793] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-04-21T16:51:49.793] [DEBUG] debug-file - Current idle worker size: 3.
+[2026-04-21T16:51:49.793] [DEBUG] debug-file - Current resident worker size: 4.
+[2026-04-21T16:51:49.793] [DEBUG] debug-file - Cleanup worker 1.
+[2026-04-21T16:51:49.793] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-04-21T16:51:49.793] [DEBUG] debug-file - Current idle worker size: 2.
+[2026-04-21T16:51:49.793] [DEBUG] debug-file - Current resident worker size: 4.
+[2026-04-21T16:51:49.794] [DEBUG] debug-file - Cleanup worker 18.
+[2026-04-21T16:51:49.794] [DEBUG] debug-file - Worker 18 has been cleaned up.
+[2026-04-21T16:51:49.794] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-21T16:51:49.794] [DEBUG] debug-file - Current resident worker size: 4.
+[2026-04-21T16:51:49.797] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-21T16:51:49.805] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-21T16:51:49.806] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-21T16:51:49.806] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2026-04-21T16:51:49.809] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-04-21T16:51:49.810] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-04-21T16:51:49.810] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-21T16:51:49.811] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-21T16:51:49.819] [DEBUG] debug-file - worker[18] exits with exit code 1.
+[2026-04-21T17:58:11.883] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-21T17:58:18.252] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-21T17:59:10.016] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T17:59:10.013] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-04-21T17:59:10.342] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-04-21T17:59:10.338] [DEBUG] debug-file - App plugin register hook start...
+[2026-04-21T17:59:10.348] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-04-21T17:59:10.371] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-04-21T17:59:10.493] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-04-21T17:58:11.885] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-04-21T17:59:10.533] [DEBUG] debug-file - project has submodules:entry
+[2026-04-21T17:59:10.565] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T17:58:18.299] [DEBUG] debug-file - Cache service initialization finished in 47 ms 
+[2026-04-21T17:59:10.017] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-21T17:59:10.342] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-04-21T17:59:10.013] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-04-21T17:59:10.339] [DEBUG] debug-file - App plugin register hook end...
+[2026-04-21T17:59:10.350] [DEBUG] debug-file - not found resModel json file in : D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\entry\src\ohosTest\module.json5
+[2026-04-21T17:59:10.466] [DEBUG] debug-file - Sdk init in 106 ms 
+[2026-04-21T17:59:10.547] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-04-21T17:59:10.658] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-21T17:59:10.518] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-04-21T17:59:10.478] [DEBUG] debug-file - Project task initialization takes 11 ms 
+[2026-04-21T17:58:11.889] [DEBUG] debug-file - env: daemon=false
+[2026-04-21T17:59:10.569] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-04-21T17:58:18.301] [DEBUG] debug-file - hvigorfile, resolving D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-21T17:59:10.017] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-21T17:59:10.342] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-04-21T17:59:10.339] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T17:59:10.358] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-04-21T17:59:10.556] [DEBUG] debug-file - load to the disk finished
+[2026-04-21T17:59:10.663] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-21T17:59:10.519] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T17:59:10.479] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T17:58:11.890] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2026-04-21T17:59:10.569] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-04-21T17:59:10.017] [DEBUG] debug-file - App plugin creating...
+[2026-04-21T17:59:10.342] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-04-21T17:59:10.361] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-04-21T17:59:10.558] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T17:59:10.520] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T17:59:10.676] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-04-21T17:59:10.479] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-21T17:59:10.593] [DEBUG] debug-file - Configuration phase cost:52 s 294 ms 
+[2026-04-21T17:59:10.365] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-04-21T17:59:10.562] [DEBUG] debug-file - Module PlayShortVideosBasedOnVideoComponent-master Collected Dependency: 
+[2026-04-21T17:59:10.676] [DEBUG] debug-file - Clear worker 0.
+[2026-04-21T17:59:10.520] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T17:59:10.479] [DEBUG] debug-file - hvigorfile, resolve finished D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-21T17:59:10.596] [DEBUG] debug-file - Configuration task cost before running: 52 s 357 ms 
+[2026-04-21T17:59:10.562] [DEBUG] debug-file - Module PlayShortVideosBasedOnVideoComponent-master's total dependency: 0
+[2026-04-21T17:59:10.676] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-04-21T17:59:10.520] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T17:59:10.480] [DEBUG] debug-file - hvigorfile, resolving D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-21T17:59:10.597] [DEBUG] debug-file - Executing task :entry:init
+[2026-04-21T17:59:10.676] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-21T17:59:10.520] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T17:59:10.489] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2026-04-21T17:59:10.598] [DEBUG] debug-file - entry : init cost memory 0.01415252685546875
+[2026-04-21T17:59:10.676] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-21T17:59:10.520] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-04-21T17:59:10.489] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2026-04-21T17:59:10.598] [DEBUG] debug-file - runTaskFromQueue task cost before running: 52 s 359 ms 
+[2026-04-21T17:59:10.676] [DEBUG] debug-file - Clear worker 1.
+[2026-04-21T17:59:10.520] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T17:59:10.490] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T17:59:10.600] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-04-21T17:59:10.676] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-04-21T17:59:10.521] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T17:59:10.490] [DEBUG] debug-file - Hap plugin creating...
+[2026-04-21T17:59:10.601] [DEBUG] debug-file - Executing task ::init
+[2026-04-21T17:59:10.676] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-21T17:59:10.522] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T17:59:10.601] [DEBUG] debug-file - PlayShortVideosBasedOnVideoComponent-master : init cost memory 0.01139068603515625
+[2026-04-21T17:59:10.677] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-21T17:59:10.522] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T17:59:10.601] [DEBUG] debug-file - runTaskFromQueue task cost before running: 52 s 362 ms 
+[2026-04-21T17:59:10.678] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-21T17:59:10.522] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T17:59:10.601] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-04-21T17:59:10.701] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-04-21T17:59:10.522] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-04-21T17:59:10.612] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-04-21T17:59:10.708] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-04-21T17:59:10.522] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T17:59:10.612] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-04-21T17:59:10.522] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-21T17:59:10.623] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-21T17:59:10.523] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-21T17:59:10.623] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-21T17:59:10.523] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-21T17:59:10.523] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-21T17:59:10.523] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-04-21T17:59:10.530] [DEBUG] debug-file - Module entry task initialization takes 6 ms 
+[2026-04-21T17:59:10.530] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-04-21T17:59:10.530] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-04-21T17:59:10.530] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T17:59:10.531] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T17:59:10.531] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-21T17:59:10.531] [DEBUG] debug-file - hvigorfile, resolve finished D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-21T17:59:10.731] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-04-26T15:35:06.143] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-04-26T15:35:06.282] [DEBUG] debug-file - java daemon started at port 45050 pid 16684
+[2026-04-26T15:35:00.555] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-26T15:35:00.854] [DEBUG] debug-file - env: daemon=true
+[2026-04-26T15:35:00.556] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-04-26T15:35:08.933] [DEBUG] debug-file - session manager: set active socket. socketId=N8zF-Y_SlorX_XhpAAAB
+[2026-04-26T15:35:08.948] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-26T15:35:08.953] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-26T15:35:08.954] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-26T15:35:08.954] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-26T15:35:08.956] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-26T15:35:08.958] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-26T15:35:08.963] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-26T15:35:08.982] [DEBUG] debug-file - Cache service initialization finished in 19 ms 
+[2026-04-26T15:35:08.983] [DEBUG] debug-file - hvigorfile, resolving D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-26T15:36:01.925] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-26T15:36:01.925] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-26T15:36:01.926] [DEBUG] debug-file - Starting plugin build process
+[2026-04-26T15:36:01.926] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-26T15:36:01.927] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-26T15:36:01.927] [DEBUG] debug-file - App plugin creating...
+[2026-04-26T15:36:02.086] [DEBUG] debug-file - App plugin register hook start...
+[2026-04-26T15:36:02.086] [DEBUG] debug-file - App plugin register hook end...
+[2026-04-26T15:36:02.087] [DEBUG] debug-file - Plugin build process completed
+[2026-04-26T15:36:02.087] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-04-26T15:36:02.088] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-04-26T15:36:02.088] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-04-26T15:36:02.088] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-04-26T15:36:02.089] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-04-26T15:36:02.109] [DEBUG] debug-file - not found resModel json file in : D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\entry\src\ohosTest\module.json5
+[2026-04-26T15:36:02.115] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-04-26T15:36:02.130] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-04-26T15:36:02.133] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-04-26T15:36:02.136] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-04-26T15:36:02.187] [DEBUG] debug-file - Sdk init in 58 ms 
+[2026-04-26T15:36:02.191] [DEBUG] debug-file - Project task initialization takes 4 ms 
+[2026-04-26T15:36:02.191] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-26T15:36:02.191] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-26T15:36:02.191] [DEBUG] debug-file - hvigorfile, resolve finished D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+[2026-04-26T15:36:02.192] [DEBUG] debug-file - hvigorfile, resolving D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-26T15:36:02.211] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-26T15:36:02.211] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-26T15:36:02.211] [DEBUG] debug-file - Starting plugin build process
+[2026-04-26T15:36:02.211] [DEBUG] debug-file - Hap plugin creating...
+[2026-04-26T15:36:02.212] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\hvigorfile.ts
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- D:\software\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-04-26T15:36:02.224] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-04-26T15:36:02.224] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-26T15:36:02.225] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-26T15:36:02.225] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-26T15:36:02.225] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-26T15:36:02.225] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-26T15:36:02.225] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-04-26T15:36:02.225] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-26T15:36:02.225] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-26T15:36:02.226] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-26T15:36:02.226] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-26T15:36:02.226] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-26T15:36:02.226] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-04-26T15:36:02.226] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-26T15:36:02.226] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-04-26T15:36:02.226] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-04-26T15:36:02.226] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-04-26T15:36:02.226] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-04-26T15:36:02.226] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-04-26T15:36:02.230] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2026-04-26T15:36:02.230] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-04-26T15:36:02.230] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-04-26T15:36:02.230] [DEBUG] debug-file - Plugin build process completed
+[2026-04-26T15:36:02.230] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-26T15:36:02.230] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-26T15:36:02.230] [DEBUG] debug-file - hvigorfile, resolve finished D:\ky\2nd\PlayShortVideosBasedOnVideoComponent-master\entry\hvigorfile.ts
+[2026-04-26T15:36:02.246] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 16 ms 
+[2026-04-26T15:36:02.246] [DEBUG] debug-file - project has submodules:entry
+[2026-04-26T15:36:02.254] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-04-26T15:36:02.259] [DEBUG] debug-file - load to the disk finished
+[2026-04-26T15:36:02.260] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-26T15:36:02.261] [DEBUG] debug-file - Module PlayShortVideosBasedOnVideoComponent-master Collected Dependency: 
+[2026-04-26T15:36:02.261] [DEBUG] debug-file - Module PlayShortVideosBasedOnVideoComponent-master's total dependency: 0
+[2026-04-26T15:36:02.262] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-26T15:36:02.264] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-04-26T15:36:02.264] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-04-26T15:36:02.279] [DEBUG] debug-file - Configuration phase cost:53 s 297 ms 
+[2026-04-26T15:36:02.280] [DEBUG] debug-file - Configuration task cost before running: 53 s 323 ms 
+[2026-04-26T15:36:02.281] [DEBUG] debug-file - Executing task :entry:init
+[2026-04-26T15:36:02.281] [DEBUG] debug-file - entry : init cost memory 0.0248260498046875
+[2026-04-26T15:36:02.281] [DEBUG] debug-file - runTaskFromQueue task cost before running: 53 s 323 ms 
+[2026-04-26T15:36:02.282] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-04-26T15:36:02.282] [DEBUG] debug-file - Executing task ::init
+[2026-04-26T15:36:02.282] [DEBUG] debug-file - PlayShortVideosBasedOnVideoComponent-master : init cost memory 0.01688385009765625
+[2026-04-26T15:36:02.282] [DEBUG] debug-file - runTaskFromQueue task cost before running: 53 s 324 ms 
+[2026-04-26T15:36:02.282] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-04-26T15:36:02.288] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-04-26T15:36:02.288] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-04-26T15:36:02.291] [DEBUG] debug-file - Cleanup worker 0.
+[2026-04-26T15:36:02.291] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-04-26T15:36:02.291] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-26T15:36:02.291] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-26T15:36:02.291] [DEBUG] debug-file - Cleanup worker 1.
+[2026-04-26T15:36:02.291] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-04-26T15:36:02.291] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-26T15:36:02.292] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-26T15:36:02.293] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-26T15:36:02.298] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-26T15:36:02.298] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-26T15:36:02.296] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-04-26T15:36:02.300] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-04-26T15:36:02.301] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-26T15:36:02.301] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
